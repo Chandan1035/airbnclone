@@ -1,0 +1,91 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+}
+
+nav {
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#search-input {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+#search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#listings-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#listings-container .listing {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+.listing-card {
+    width: 300px;
+    margin: 10px;
+}
+
+.listing-card .image {
+    height: 200px;
+    width: 100%;
+}
+
+.listing-info {
+    padding: 20px;
+}
+
+.listing-info h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.listing-info p {
+    font-size: 16px;
+}
+
+.listing-card .amenities {
+    font-size: 14px;
+}
+
+.listing-card .host-details {
+    font-size: 14px;
+}
